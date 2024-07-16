@@ -1,0 +1,74 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable media-feature-range-notation */
+.Button {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: 36px;
+  line-height: 88px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.equal {
+  background-color: transparent;
+  width: 100%;
+
+  span {
+    height: 80px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    flex: none;
+    color: var(--color-blue);
+    background-color: var(--color-white);
+  }
+
+  &:hover {
+    span {
+      transition: all 0.2s ease-in-out;
+      background: var(--color-white-secondary);
+    }
+   
+  }
+
+}
+
+.default {
+  padding: 15px 16px;
+  border-radius: 10px;
+  color: var(--color-blue);
+  background: var(--color-white);
+
+  &:hover {
+    background: var(--color-white-secondary);
+  }
+}
+
+.action {
+  background-color: transparent;
+  width: 100%;
+
+  span {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    flex: none;
+    color: var(--color-white);
+  }
+
+  &:hover {
+    span {
+      transition: background-color 0.2s ease-in-out;
+      background-color: rgb(255 255 255 / 12%);
+      border-radius: 50% ;
+    }
+  }
+}

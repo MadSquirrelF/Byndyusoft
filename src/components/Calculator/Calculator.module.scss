@@ -1,0 +1,27 @@
+/* stylelint-disable media-feature-range-notation */
+
+.Calculator {
+  position: relative;
+  border-radius: 18px;
+  padding: 44px 48px;
+  width: 554px;
+  background: var(--bg-calculator);
+  box-shadow: 0 82px 158px 0 rgb(0 0 0 / 35%), 0 25px 48px rgb(0 0 0 / 23%), 0 10px 20px rgb(0 0 0 / 18%), 0 4px 7px rgb(0 0 0 / 12%);
+
+
+}
+
+@media screen and (max-width: 650px) {
+  .Calculator {
+    width: 100vw;
+    height: 100%;
+    border-radius: 0;
+    padding: 44px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Calculator {
+    padding: 10px 5px;
+  }
+}

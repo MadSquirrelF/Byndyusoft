@@ -1,0 +1,46 @@
+@import "reset";
+@import "variables/global";
+
+@font-face {
+  font-family: Geometria;
+  src: url('../assets/fonts/Geometria-Medium.eot');
+  src: local('Geometria Medium'), local('Geometria-Medium'),
+      url('../assets/fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Geometria-Medium.woff2') format('woff2'),
+      url('../assets/fonts/Geometria-Medium.woff') format('woff'),
+      url('../assets/fonts/Geometria-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Geometria;
+  src: url('../assets/fonts/Geometria-Bold.eot');
+  src: local('Geometria Bold'), local('Geometria-Bold'),
+      url('../assets/fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Geometria-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Geometria-Bold.woff') format('woff'),
+      url('../assets/fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    background: var(--bg-main);
+}
+
+body {
+  font-family: Geometria, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

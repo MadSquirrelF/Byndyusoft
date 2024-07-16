@@ -1,0 +1,13 @@
+/* stylelint-disable media-feature-range-notation */
+.KeysWindow {
+  width: 100%;
+  padding-top: 37px;
+  border-top: 2px solid var(--border-default);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 16px 20px;
+}
